@@ -1,0 +1,37 @@
+*{
+   margin:0px;
+   padding:0px; 
+}
+body{
+  display: flex;
+  
+  justify-content: center;
+  height:100vh;
+}
+.box{
+ width:200px;
+ height: 200px;
+ border-radius: 50%;
+ background-color:pink;
+ border-top: 5px solid blue;
+ animation: slide 3s ease-in infinite forwards alternate  ;
+}
+
+@keyframes slide {
+    0%{
+        transform: translateY(0px,-100px) rotate(0deg) ;
+      
+    }
+    20%{
+        transform: translateX(90px);
+    }
+    50%{
+        transform: translatey(100px);
+    }
+    
+    100%{
+        transform: translateX(400px) rotate(360deg);
+       
+    }
+    
+}
