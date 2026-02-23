@@ -1,0 +1,139 @@
+*{
+  margin:0;
+  padding:0;
+ 
+}
+
+body{
+  display:flex;
+  justify-content:center;
+  padding:40px;
+  background:white;
+ 
+}
+
+#eg1{
+  width:900px;
+  height:500px;
+  display:grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas: "a b b c c"
+                       "a d e e f"
+                       "g h i i f";
+}
+
+.box{
+  color:white;
+  padding:14px;
+  border:3px solid white;
+  
+}
+
+/* Top row */
+#b1{ 
+    background:#00a9e0;
+    /* grid-column:1/2; 
+     grid-row:1/2;*/
+     grid-area:a;
+ }
+#b2{
+     background:#00a9e0;
+      /*grid-column:2/3; 
+      grid-row:1/2;*/
+       grid-area:b;
+     }
+#b3{ 
+    background:#00a9e0;
+    /* grid-column:3/4;
+      grid-row:1/2;*/
+       grid-area:b;
+ }
+#b4{
+  background:#00a9e0;
+  /*grid-column:2/4;
+  grid-row:2/4;*/
+   grid-area:c;
+}
+#b5{
+     background:#008c8c;
+      /*grid-column:5/6;
+       grid-row:2/3;*/
+        grid-area:c;
+     }
+#b6{
+     background:#008c8c;
+      /*grid-column:4/5;
+       grid-row:3/4;*/
+        grid-area:a;
+     }
+#b7{ 
+    background:#008c8c; 
+    /*grid-column:5/6; 
+    grid-row:3/4; */
+     grid-area:d;
+}
+
+#b8{ 
+    background:#008c8c;
+     /*grid-column:2/3; 
+     grid-row:4/5;*/ 
+      grid-area:e;
+    }
+#b9{
+     background:#00a9e0; 
+    /* grid-column:3/4;
+      grid-row:4/5; */
+       grid-area:f;
+    }
+#b10{
+  background:#008c8c;
+ /* grid-column:4/6;
+  grid-row:4/6;*/
+   grid-area:g;
+}
+#b11{ 
+  background:#008c8c; 
+ /* grid-column:2/3;
+   grid-row:5/6;*/
+    grid-area:h;
+   }
+#b12{
+   background:#008c8c;
+   /* grid-column:2/3; 
+    grid-row:6/7;*/
+     grid-area:i;
+   }
+#b13{ 
+  background:#008c8c; 
+ /* grid-column:3/4; 
+  grid-row:5/6;*/
+   grid-area:i;
+ }
+#b14{
+  background:#6a4acb;
+  /*grid-column:3/5;
+  grid-row:6/8;*/
+   grid-area:f;
+}
+
+#b15{
+   background:#7a5ad6;
+    grid-column:5/6; 
+    grid-row:6/7;
+   }
+#b16{ 
+  background:#7a5ad6;
+   grid-column:6/7; 
+   grid-row:6/7;
+   }
+#b17{ 
+  background:#7a5ad6; 
+  grid-column:5/6;
+  grid-row:7/8; 
+}
+#b18{ 
+  background:#7a5ad6;
+   grid-column:4/5; 
+   grid-row:8/9; 
+  }

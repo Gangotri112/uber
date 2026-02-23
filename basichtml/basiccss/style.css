@@ -1,0 +1,58 @@
+/*selector = selects the contant you want to style*/
+*{                /*universal selector*/
+    margin:0px;
+    padding: 0px;
+    background-color: blueviolet;
+}
+h1{                   /*element selector*/
+    color:aliceblue;
+    text-shadow: 2px 1px 4px pink;
+    text-align: center;
+    font-size: xx-large;
+    font-weight:bolder;
+}
+p{
+    color:bisque;
+    text-decoration-line:underline;
+}
+h1,p{                   /*combination selector*/
+    font-style: italic;
+    text-transform:initial;
+}
+#uk{          /*id  selector*/
+    font-style: bold;
+    color: black;
+}
+.hi{        /*class selector*/
+border:10px;
+background-color:wheat;
+color:black;
+}
+#g1{
+    width: 00px;
+    height:00px;
+    background-color: rgb(104, 34, 98);
+    margin:auto;
+}
+#btn{
+    padding: 5px 24px;
+    background-color: yellow;
+    color: red;
+    border-style: double;
+    position:center;
+    top:20px
+}
+#btn:hover{
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;
+}
+#nav{
+    padding: 00px;
+    margin: auto;
+}
+nav a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+}

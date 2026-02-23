@@ -1,0 +1,35 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+#container{
+    display:flex;
+    margin:auto;
+    width: 100vw;
+    border-width: 100px;
+    border: 1px solid chocolate;
+    flex-direction:row ;
+    justify-content: space-around;
+}
+.box{
+    border: 1px solid blue;
+    width: 100px;
+    height:100px;
+    
+}
+#eg1{
+    display:flex;
+    margin:auto;
+    width: 100vw;
+    border-width: 100px;
+    border: 1px solid chocolate;
+    flex-direction:row ;
+    justify-content: space-evenly;
+}
+.dg{
+    border: 1px solid blue;
+    width: 100px;
+    height:100px;
+    
+}

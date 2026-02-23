@@ -1,0 +1,48 @@
+
+#ssv{
+    margin:auto;
+    width:100vw;
+    height:300px;
+    border-width: 100px;
+    border: 2px solid chocolate;
+    display:flex;
+    align-items: center;
+    
+}
+.dd{
+    border:2px solid blue;
+    width:100px;
+    height:100px;
+    position:static;
+}
+.dg{
+    border:2px solid blue;
+    width:100px;
+    height:100px;
+    position:fixed;
+    right:10px;
+}
+.gg{
+    border:2px solid blue;
+    width:100px;
+    height:100px;
+    position: absolute;
+    bottom:10px;
+    left:30px;
+}
+.dgg{
+    border:2px solid blue;
+    width:100px;
+    height:100px;
+    position:relative;
+    top:90px;
+    left:200px;
+}
+.ddg{
+    border:2px solid blue;
+    width:100px;
+    height:100px;
+    position:sticky;
+    top:100px;
+}
+

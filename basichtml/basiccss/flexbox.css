@@ -1,0 +1,23 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container{
+    margin: auto;
+    width: 90vw;
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.box{
+    border: 1px solid blue;
+    height: 100px;
+    width: 100px;
+}
