@@ -14,10 +14,24 @@ body{
  border-radius: 50%;
  background-color:pink;
  border-top: 5px solid blue;
- animation: slide 3s ease-in infinite forwards alternate  ;
+ animation: slide 3s ease-in infinite  alternate  ;
 }
+.box2{
+    width:200px;
+    height:200px;
+    
+    background-color: blue;
+    border-style: dotted;
+    border-color:yellow;
+    border-width: 10px;
+}
+.box2:hover{
+    border-radius: 50%;
+    animation: move 4s ease-in infinite alternate-reverse;
 
+}
 @keyframes slide {
+
     0%{
         transform: translateY(0px,-100px) rotate(0deg) ;
       
@@ -33,5 +47,29 @@ body{
         transform: translateX(400px) rotate(360deg);
        
     }
-    
+
+}
+@keyframes move {
+    0%{
+        transform:translate(0px,0px);
+    }
+    25%{
+        transform: translate(0px,200px);
+    }
+    45%{
+        transform: translate(80px,80px);
+    }
+    55%{
+        transform: translate(150px,150px);
+    }
+     70%{
+        transform: translate(80px, 80px);
+    }
+    85%{
+        transform: translate(0px, 0px);
+    }
+
+    100%{
+        transform: translate(0px, 0px);
+    }
 }
